@@ -1,0 +1,175 @@
+html, body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #867070;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #D5B4B4;
+}
+
+.banner {
+  background-color: #E4D0D0;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F5EBEB;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #867070;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #D5B4B4;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #D5B4B4;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #867070;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #D5B4B4;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 6px solid #E4D0D0;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #F5EBEB;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #867070;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #D5B4B4;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  width: 130px;
+  background-color: #D5B4B4;
+  color: #867070;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px #D5B4B4;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  background-color: #867070;
+  color: #D5B4B4;
+  border-color: #F5EBEB;
+}
+
+#pedra-flor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  margin: 2rem auto;
+}
+#pedra-flor .pedra-flor__container__texto {
+  text-align: center;
+  line-height: 2rem;
+}
+#pedra-flor .pedra-flor__container__texto h3 {
+  text-transform: uppercase;
+  color: #867070;
+  font-size: 1.2rem;
+}
+#pedra-flor .pedra-flor__container__texto h4 {
+  color: #D5B4B4;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #E4D0D0;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to right, #F5EBEB, #E4D0D0, #D5B4B4, #D5B4B4);
+}
+footer i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
